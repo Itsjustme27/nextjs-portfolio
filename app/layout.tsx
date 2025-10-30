@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   description: "Cybersecurity enthusiast and full-stack developer passionate about ethical hacking and automation",
   generator: "v0.app",
   icons: {
-    icon: "/profile.png",
+    icon: "/favicon.ico",
   },
 }
 

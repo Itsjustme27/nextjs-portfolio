@@ -262,7 +262,7 @@ export default function Home() {
             <div className="hidden md:flex justify-center">
               <div className="relative w-80 h-80 rounded-full overflow-hidden border-4 border-primary/30 shadow-2xl shadow-primary/20 flex-shrink-0">
                 <Image
-                  src="/profile.png"
+                  src="/favicon.ico"
                   alt="Prayush Hada"
                   width={320}
                   height={320}
