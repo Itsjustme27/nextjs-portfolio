@@ -142,7 +142,7 @@ export default function Home() {
             <Link href="/" className="flex items-center gap-3">
               <div className="w-10 h-10 rounded-full overflow-hidden border-2 border-primary flex-shrink-0">
                 <Image
-                  src="/profile.png"
+                  src="/favicon.ico"
                   alt="Prayush Hada"
                   width={40}
                   height={40}
