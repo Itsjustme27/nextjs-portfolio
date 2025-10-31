@@ -171,7 +171,7 @@ export default function Home() {
               <a href="#certifications" className="hover:text-primary transition-colors">
                 Certifications
               </a>
-              <Link href="/blog" className="hover:text-primary transition-colors">
+              <Link href="https://prayush.hashnode.dev/" className="hover:text-primary transition-colors">
                 Blog
               </Link>
               <a href="#contact" className="hover:text-primary transition-colors">
