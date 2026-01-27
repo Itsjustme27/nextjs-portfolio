@@ -84,6 +84,7 @@ export default function Home() {
   ]
 
   const certifications = [
+    { name: "Pre-Security Certificate", issuer: "TryHackme", date: "Sep 2025" },
     { name: "Certified AppSec Practitioner (CAP)", issuer: "TheSecOps Group", date: "Apr 2025" },
     { name: "Hack A Flag 2025", issuer: "IEEE Computer Society", date: "Jul 2025" },
     {
@@ -110,6 +111,17 @@ export default function Home() {
 
   const experience = [
     {
+      role: "SOC Analyst Intern",
+      company: "CryptoGen Nepal",
+      period: "Dec 2025 - Present",
+      highlights: [
+        "Set up and configure Wazuh SIEM.",
+        "Monitor real-time logs, incident response and analysis",
+        "Basic Malware analysis",
+        "Write Reports, Build Use cases, and contribute to real-world log analysis",
+      ],
+    },
+   {
       role: "Founding Member",
       company: "Y3ti@Sec",
       period: "May 2025 - Present",
