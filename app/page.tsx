@@ -3,7 +3,7 @@
 import { useState } from "react"
 import Link from "next/link"
 import Image from "next/image"
-import { Menu, X, Github, Linkedin, Mail, ExternalLink, Award } from "lucide-react"
+import { Menu, X, Github, Facebook, Linkedin, Mail, ExternalLink, Award } from "lucide-react"
 
 export default function Home() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -269,6 +269,14 @@ export default function Home() {
                   <Mail size={20} />
                   Email
                 </a>
+                <a
+                  href="https://www.facebook.com/itsjustme2005/"
+                  className="inline-flex items-center gap-2 px-6 py-3 border border-primary text-primary rounded-lg hover:bg-primary/10 transition-opacity"
+                >
+                  <Facebook size={20} />
+                  Facebook 
+                </a>
+
               </div>
             </div>
             <div className="hidden md:flex justify-center">
@@ -471,6 +479,13 @@ export default function Home() {
             >
               <Mail size={24} />
             </a>
+            <a
+              href="https://facebook.com/itsjustme2005"
+              className="inline-flex items-center justify-center w-12 h-12 bg-card border border-border rounded-lg hover:border-primary hover:text-primary transition-colors"
+            >
+              <Facebook size={24} />
+            </a>
+
           </div>
           <a
             href="mailto:reachprayush@gmail.com"
