@@ -10,6 +10,13 @@ export default function Home() {
 
   const projects = [
     {
+      title: "Yetinelv2 - A lightweight, production-ready SIEM built with Node.js and React.  ",
+      description:
+        " A lightweight, production-ready SIEM built with Node.js and React. Features real-time log ingestion for Linux & Windows, a rule-based detection engine (Signature, Threshold, Correlation), and a WebSocket-powered security dashboard",
+      tags: ["Nodejs", "SQLite", "Powershell", "Bash", "SIEM"],
+      link: "https://github.com/Itsjustme27/yetinelv2",
+    },
+    {
       title: "Phishy - Advanced Phishing Simulation Platform",
       description:
         "Multi-perspective cybersecurity education platform with Attacker, Victim, and Defender roles. Built with Laravel 11, PHP 8.4+, MySQL/PostgreSQL, featuring RBAC, real-time bot simulations, and admin dashboard.",
@@ -66,7 +73,9 @@ export default function Home() {
         "ExifTool",
         "steghide",
         "Wazuh",
-        "Logpoint SIEM",
+        "Logpoint",
+        "FortiSIEM",
+        "Logrhythm"
       ],
     },
     {
@@ -84,6 +93,7 @@ export default function Home() {
   ]
 
   const certifications = [
+    { name: "SOC L1 certificate", issuer: "TryHackme", date: "Oct 2025" },
     { name: "Pre-Security Certificate", issuer: "TryHackme", date: "Sep 2025" },
     { name: "Certified AppSec Practitioner (CAP)", issuer: "TheSecOps Group", date: "Apr 2025" },
     { name: "Hack A Flag 2025", issuer: "IEEE Computer Society", date: "Jul 2025" },
@@ -111,13 +121,14 @@ export default function Home() {
 
   const experience = [
     {
-      role: "SOC Analyst Intern",
+      role: "SOC L1 Analyst",
       company: "CryptoGen Nepal",
       period: "Dec 2025 - Present",
       highlights: [
         "Set up and configure Wazuh SIEM.",
-        "Monitor real-time logs, incident response and analysis",
-        "Basic Malware analysis",
+        "Monitor real-time logs, incident response and analysis using FortiSIEM, Logpoint and Logrhythm",
+        "Research on Linux Kernel and eBPF",
+        "Automating Closing FPs using Python",
         "Write Reports, Build Use cases, and contribute to real-world log analysis",
       ],
     },
@@ -321,7 +332,6 @@ export default function Home() {
                 <h3 className="text-xl font-semibold mb-3 text-primary">Education</h3>
                 <p className="text-muted-foreground mb-2">Bachelor in Computer System and Information Technology</p>
                 <p className="text-sm text-muted-foreground mb-3">Medhavi College, Pokhara University • 2023 - 2027</p>
-                <p className="text-xs text-muted-foreground">GPA: 3.42/4.00 (Current)</p>
               </div>
               <div className="bg-card border border-border rounded-lg p-6">
                 <h3 className="text-xl font-semibold mb-3 text-primary">Current Role</h3>
