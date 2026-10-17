@@ -121,13 +121,6 @@ export const sections = [
  * Headline numbers
  * ------------------------------------------------------------------ */
 
-export const stats: { value: string; label: string }[] = [
-  { value: "4th", label: "Nepal CTF leaderboard (CTFtime)" },
-  { value: "~85%", label: "reduction in MTTD, automated triage" },
-  { value: "2", label: "vulnerabilities disclosed & fixed" },
-  { value: "153rd", label: "NahamCon 2025 — of 2,944 teams" },
-]
-
 /* ------------------------------------------------------------------ *
  * Experience
  * ------------------------------------------------------------------ */

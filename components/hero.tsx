@@ -1,5 +1,5 @@
 import { ArrowUpRight, FileText } from "lucide-react"
-import { profile, socialsByKey, stats } from "@/lib/content"
+import { profile, socialsByKey } from "@/lib/content"
 import { SocialIcon } from "@/components/social-icon"
 
 /**
@@ -85,19 +85,7 @@ export function Hero() {
           </a>
         </div>
 
-        <dl className="mt-16 grid grid-cols-2 gap-x-6 gap-y-8 border-t border-border pt-8 sm:grid-cols-4">
-          {stats.map((stat) => (
-            // Reversed so the value reads first visually while the term stays
-            // the label, which is the correct pairing for a description list.
-            <div key={stat.label} className="flex flex-col-reverse">
-              <dt className="mt-2 text-sm leading-snug text-muted-foreground">{stat.label}</dt>
-              <dd className="font-mono text-2xl font-semibold text-foreground sm:text-3xl">
-                {stat.value}
-              </dd>
-            </div>
-          ))}
-        </dl>
-      </div>
+     </div>
     </section>
   )
 }
